@@ -5,19 +5,21 @@ def loop_message_five_times(string)
   }
 end
 
-counter = 0
-def loop_message_n_times(string, limit)
-  while counter < number do
-    puts string
-    counter += 1
+
+def loop_message_n_times(message, limit)
+  count = 0
+  while count < limit do
+    puts message
+    count += 1
   end
 end
 
-counter = 0
+
 def output_array(array)
-  while counter < array.length
-    puts array[counter]
-    counter+= 1
+  count = 0
+  while counter < array.length do
+    puts array[count]
+    count+= 1
   end
 end
 
