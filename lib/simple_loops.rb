@@ -6,7 +6,7 @@ def loop_message_five_times(string)
 end
 
 counter = 0
-def loop_message_n_times(string, number)
+def loop_message_n_times(string, limit)
   while counter < number do
     puts string
     counter += 1
