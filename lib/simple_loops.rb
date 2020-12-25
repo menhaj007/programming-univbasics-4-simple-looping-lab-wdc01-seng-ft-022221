@@ -9,7 +9,16 @@ counter = 0
 def loop_message_n_times(string, number)
   while counter < number do
     puts string
+    counter += 1
   end
 end
 
-def 
+counter = 0
+def output_array(array)
+  while counter < array.length
+    puts array[counter]
+    counter+= 1
+  end
+end
+
+  
