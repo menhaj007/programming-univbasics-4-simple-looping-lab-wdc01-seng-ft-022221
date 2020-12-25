@@ -25,13 +25,10 @@ end
 
 def return_string_array(array)
   count = 0
-  # stringArray = ""
   while count < array.length do
     array[count].to_s
-    # stringArray.push(array[count].to_s)
     count += 1
   end
-  # stringArray
 end
 
   
